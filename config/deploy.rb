@@ -4,8 +4,8 @@
 set :stages, %w(production staging)
 set :default_stage, "staging"
 set :application, 'reportbooru'
-set :repo_url, 'git://github.com/r888888888/reportbooru.git'
-set :user, "danbooru"
+set :repo_url, 'git://github.com/shadoukun/reportbooru.git'
+set :user, "report"
 set :deploy_to, "/var/www/reportbooru"
 set :scm, :git
 set :default_env, {
