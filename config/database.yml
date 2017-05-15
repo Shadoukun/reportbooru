@@ -20,8 +20,8 @@ danbooru_development:
 danbooru_production:
   adapter: postgresql
   database: danbooru2
-  username: danbooru_ro
-  host: yukinoshita
+  username: danbooru
+  host: localhost
   password: <%= ENV["DANBOORU_RO_PASSWORD"] %>
 
 archive_development:

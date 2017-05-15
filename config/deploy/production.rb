@@ -1,1 +1,1 @@
-server "isshiki.donmai.us", user: "danbooru", roles: [:app, :db, :web], primary: true
+server "report.shota.zone", user: "danbooru", roles: [:app, :db, :web], primary: true
